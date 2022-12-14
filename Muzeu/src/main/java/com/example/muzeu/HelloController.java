@@ -29,6 +29,24 @@ public class HelloController {
         stage.show();
     }
     @FXML
+    protected void meniuPrincipalLogin(ActionEvent event) throws Exception{
+        System.out.println("Intrăm pe login din meniu");
+        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("login.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    protected void meniuPrincipalLogged(ActionEvent event) throws Exception{
+        System.out.println("Logged In!");
+        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("logged.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
     protected void meniuPrincipal(ActionEvent event) throws Exception{
         System.out.println("Intrăm pe vizualizare din meniu");
         root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));

@@ -14,31 +14,8 @@
                         <Font name="System Bold" size="24.0" />
                     </font>
                 </Label>
-               <Button contentDisplay="TEXT_ONLY" graphicTextGap="5.0" layoutX="14.0" layoutY="417.0" mnemonicParsing="false" text="Înapoi la meniu" textFill="#1d00fa" textOverrun="CLIP">
-                   .button{
-                   -fx-border-color: transparent;
-                   -fx-border-width: 0;
-                   -fx-background-radius: 0;
-                   -fx-background-color: transparent;
-                   -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
-                   -fx-font-size: 1em; /* 12 */
-                   -fx-text-fill: #828282;
-                   }
-
-                   .button:focused {
-                   -fx-border-color: transparent, black;
-                   -fx-border-width: 1, 1;
-                   -fx-border-style: solid, segments(1, 2);
-                   -fx-border-radius: 0, 0;
-                   -fx-border-insets: 1 1 1 1, 0;
-                   }
-
-                   .button:pressed {
-                   -fx-background-color: black;
-                   -fx-text-fill: white;
-                   }
-               </Button>
+               <Button contentDisplay="TEXT_ONLY" graphicTextGap="5.0" layoutX="21.0" layoutY="420.0" mnemonicParsing="false" onAction="#meniuPrincipal" text="Înapoi la meniu" textOverrun="CLIP" />
             </children></Pane>
-        <Label layoutX="40.0" layoutY="450.0" opacity="0.33" text="ArtefEX BETA 1.0b" />
+        <Label layoutX="40.0" layoutY="450.0" opacity="0.33" text="ArtefEX BETA 1.1b" />
     </children></AnchorPane>
 </VBox>

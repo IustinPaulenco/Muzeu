@@ -14,8 +14,8 @@
                         <Font name="System Bold" size="24.0" />
                     </font>
                 </Label>
-               <Button contentDisplay="TEXT_ONLY" graphicTextGap="5.0" layoutX="21.0" layoutY="420.0" mnemonicParsing="false" text="Înapoi la meniu" textOverrun="CLIP" />
+               <Button contentDisplay="TEXT_ONLY" graphicTextGap="5.0" layoutX="21.0" layoutY="420.0" mnemonicParsing="false" onAction="#meniuPrincipal" text="Înapoi la meniu" textOverrun="CLIP" />
             </children></Pane>
-        <Label layoutX="40.0" layoutY="450.0" opacity="0.33" text="ArtefEX BETA 1.0b" />
+        <Label layoutX="40.0" layoutY="450.0" opacity="0.33" text="ArtefEX BETA 1.1b" />
     </children></AnchorPane>
 </VBox>
